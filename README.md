@@ -3,7 +3,12 @@
 
 In this repository you can find the code associated to the paper "Two-dimensional visualization of large document libraries using t-SNE" (https://openreview.net/forum?id=Hebl3EZ16lq).
 
-The notebooks 01-06 contain the code to reproduce all the analyes/experiments performed. The notebooks S1-S3 contain the experiments associated to the supplementary material. All figures included in the paper can be generated with these notebooks and will be stored in the `figures` folder.
+![alt text](https://github.com/berenslab/pubmed-tsne-iclr/blob/main/figures/fig_1.png?raw=true)
+
+
+### How to use this repository
+
+The notebooks `01-06` contain the code to reproduce all the experiments and analyses performed in the paper. The notebooks `S1-S3` contain the experiments associated to the supplementary material. All figures included in the paper can be generated with these notebooks and will be stored in the `figures` folder.
 
 In order to be able to run `01_dataset_preparation.ipynb`, the dataset needs to be first downloaded into the `data` directory from https://www.nlm.nih.gov/databases/download/pubmed_medline.html and then unziped. The data used in the paper was the 2020 baseline (not available anymore), but the 2021 baseline includes our data and new works published in 2021, plus revised, and deleted citations. For that the notebook `00_download_data.ipynb` can be used (it should be noted that the path to the pubmed baseline should be changed accordingly to which baseline you want to download).
 
