@@ -14,4 +14,4 @@ In order to be able to run `01_dataset_preparation.ipynb`, the dataset needs to 
 
 As one runs the notebooks, the computed variables will be stored in the `variables` directory. In there, two subdirectories can be found: `all_data` for experiments with the whole dataset, and `subset_2M` for the UMAP comparison, and for the perplexity-based vs. uniform affinities comparison. These subdirectories also contain further subdirectories for each experiment performed with a different parameter set (exgg=1, 2, etc.) or a different method (UMAP, etc.).
 
-As the dataset and the obtained variables are too large, they are not included in the repository. However, you can find the t-SNE embedding along with some metadate in here: (link).
+As the dataset and the obtained variables are too large, they are not included in the repository. However, you can find the t-SNE embedding along with some metadata in here: https://zenodo.org/record/6684762.
